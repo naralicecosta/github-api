@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import { Outlet } from "react-router-dom"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <p>ola</p>
+      <h1>GitHub Finder</h1>
+      <Outlet />
     </>
   )
 }
